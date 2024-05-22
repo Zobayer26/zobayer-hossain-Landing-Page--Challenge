@@ -1,3 +1,5 @@
 import Header from "./Header";
+import Banner from "./Banner"
+import BuyEasyStep from "./BuyEasyStep"
 
-export   { Header }
+export   { Header,Banner,BuyEasyStep }

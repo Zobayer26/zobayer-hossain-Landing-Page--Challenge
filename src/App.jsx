@@ -1,9 +1,12 @@
-import {Header} from './components'
+import './App.css'
+import { Header,Banner,BuyEasyStep} from './components'
 
 const App = () => {
   return (
-    <div className=""> 
-   <Header/>
+    <div className="">
+      <Header />
+      <Banner/>
+      <BuyEasyStep/>
     </div>
   )
 }
