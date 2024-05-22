@@ -1,13 +1,23 @@
 import './App.css'
-import { Header,Banner,BuyEasyStep,DiscountProducts} from './components'
+
+import {
+  Header,
+  Banner,
+  BuyEasyStep,
+  DiscountProducts,
+  About
+} from './components'
+
+
 
 const App = () => {
   return (
     <div className="">
       <Header />
-      <Banner/>
-      <BuyEasyStep/>
-      <DiscountProducts/>
+      <Banner />
+      <BuyEasyStep />
+      <DiscountProducts />
+      <About/>
     </div>
   )
 }
