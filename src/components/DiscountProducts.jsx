@@ -20,7 +20,7 @@ const DiscountProducts = () => {
                   <p className=' text-[20px] leading-[30px] font-[400] '>Up to 80% off on selected item</p>
                 </div>
                 <button className='px-[40px] py-[11px] bg-[#383838]
-                 capitalize text-white rounded-[5px]'>buy now</button>
+                 capitalize text-white rounded-[5px] text-[18px] leading-[26px] font-[700]'>buy now</button>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const DiscountProducts = () => {
                   <p className=' text-[20px] leading-[30px] font-[400] '>Up to 30% off on selected item</p>
                 </div>
                 <button className='px-[40px] py-[11px] bg-[#383838]
-                 capitalize text-white rounded-[5px]'>buy now</button>
+                 capitalize text-white rounded-[5px]  text-[18px] leading-[26px] font-[700]'>buy now</button>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ const DiscountProducts = () => {
                   <p className=' text-[20px] leading-[30px] font-[400] '>Up to 40% off on selected item</p>
                 </div>
                 <button className='px-[40px] py-[11px] bg-[#383838]
-                 capitalize text-white rounded-[5px]'>buy now</button>
+                 capitalize text-white rounded-[5px]  text-[18px] leading-[26px] font-[700]'>buy now</button>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ const DiscountProducts = () => {
                   <p className=' text-[20px] leading-[30px] font-[400] '>Up to 10% off on selected item</p>
                 </div>
                 <button className='px-[40px] py-[11px] bg-[#383838]
-                 capitalize text-white rounded-[5px]'>buy now</button>
+                 capitalize text-white rounded-[5px]  text-[18px] leading-[26px] font-[700]'>buy now</button>
               </div>
             </div>
           </div>
