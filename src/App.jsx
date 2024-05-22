@@ -1,5 +1,5 @@
 import './App.css'
-import { Header,Banner,BuyEasyStep} from './components'
+import { Header,Banner,BuyEasyStep,DiscountProducts} from './components'
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Header />
       <Banner/>
       <BuyEasyStep/>
+      <DiscountProducts/>
     </div>
   )
 }
