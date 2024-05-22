@@ -1,8 +1,10 @@
-
+import {Header} from './components'
 
 const App = () => {
   return (
-    <div className="bg-red-500"> Team Debugers Landing page</div>
+    <div className=""> 
+   <Header/>
+    </div>
   )
 }
 
