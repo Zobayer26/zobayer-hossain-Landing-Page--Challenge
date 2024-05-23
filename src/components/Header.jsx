@@ -1,10 +1,10 @@
 import logo from '../assets/Logo.png'
-import { FaCartShopping } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import { useState } from 'react';
+import Cart from './Cart';
 
-const Header = () => {
+const Header = ({size}) => {
 
   const [isOpen, setIsOpen] = useState(false)
   return (
@@ -24,7 +24,7 @@ const Header = () => {
         </ul>
       </div>
       <div className='flex items-center gap-[20px]'>
-        <FaCartShopping />
+        <Cart size={size} />
         < FaUser />
         <div onClick={() => setIsOpen(!isOpen)}
           className='md:hidden ml-[10px]'>

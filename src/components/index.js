@@ -5,6 +5,7 @@ import DiscountProducts from "./DiscountProducts"
 import About from "./About"
 import Products from "./Products"
 import Footer from "./Footer";
+import Cart from "./Cart";
 
 export {
     Header,
@@ -13,5 +14,5 @@ export {
     DiscountProducts,
     About,
     Products,
-    Footer
+    Footer,Cart
 }
