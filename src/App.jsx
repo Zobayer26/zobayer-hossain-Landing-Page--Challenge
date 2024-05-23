@@ -6,7 +6,8 @@ import {
   BuyEasyStep,
   DiscountProducts,
   About,
-  Products
+  Products,
+  Footer
 } from './components'
 
 
@@ -20,6 +21,7 @@ const App = () => {
       <DiscountProducts />
       <About/>
       <Products/>
+      <Footer/>
     </div>
   )
 }

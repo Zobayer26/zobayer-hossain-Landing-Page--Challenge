@@ -21,8 +21,8 @@ const Products = () => {
           {ProductsData.map((product) => (
             <div key={product.id}>
               <div className="w-[417px] relative px-[37px] pt-[145px] pb-[115px] border border-blue-400">
-                <div className="w-full">
-                  <img className="w-full object-cover"
+                <div className="w-[343px]">
+                  <img className="w-full object-contain"
                     src={product.image} alt="" />
                 </div>
                 <div className="w-full absolute top-0 left-0 flex justify-between px-[30px] pt-[30px]">

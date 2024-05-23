@@ -4,6 +4,7 @@ import BuyEasyStep from "./BuyEasyStep"
 import DiscountProducts from "./DiscountProducts"
 import About from "./About"
 import Products from "./Products"
+import Footer from "./Footer";
 
 export {
     Header,
@@ -11,5 +12,6 @@ export {
     BuyEasyStep,
     DiscountProducts,
     About,
-    Products
+    Products,
+    Footer
 }
