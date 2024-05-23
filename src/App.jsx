@@ -5,7 +5,8 @@ import {
   Banner,
   BuyEasyStep,
   DiscountProducts,
-  About
+  About,
+  Products
 } from './components'
 
 
@@ -18,6 +19,7 @@ const App = () => {
       <BuyEasyStep />
       <DiscountProducts />
       <About/>
+      <Products/>
     </div>
   )
 }
