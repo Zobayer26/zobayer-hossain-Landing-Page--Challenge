@@ -1,4 +1,4 @@
-## Eyeglass Product Landing Page ##
+# Eyeglass Product Landing Page 
 
 Overview
 This project is a responsive landing page for an eyeglass product, built as part of the Team Debuggers challenge. It showcases my skills in web development using React and Tailwind CSS.
@@ -9,7 +9,7 @@ Responsive Design: The landing page is designed to be fully responsive across va
 Figma Alignment: Efforts were made to closely match the design specifications provided in the Figma file.
 
 # Live Demo
-Check out the live demo of the Eyeglass Product Landing Page here.
+Check out the live demo of the Eyeglass Product Landing Page [here](https://eyeglass-landing-page.vercel.app/).
 
 ## Technologies Used
 React
