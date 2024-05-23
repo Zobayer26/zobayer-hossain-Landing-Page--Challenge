@@ -22,7 +22,7 @@ const Products = () => {
         <div className=" grid grid-cols-1 justify-items-center md:grid-cols-2 2xl:grid-cols-3 xl:gap-x-[35px]  gap-y-[88px]">
           {ProductsData.map((product) => (
             <div key={product.id}>
-              <div className="w-[417px] md:w-[380px] xl:w-[417px] relative px-[37px] pt-[145px] pb-[115px] border border-blue-400">
+              <div className="w-[417px] md:w-[380px] xl:w-[417px] relative px-[37px] pt-[145px] pb-[115px]">
                 <div className="w-[343px]">
                   <img className="w-full object-contain"
                     src={product.image} alt="" />
