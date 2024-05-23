@@ -6,10 +6,10 @@ import discount_img_4 from '../assets/block_4.png'
 
 const DiscountProducts = () => {
   return (
-    <section className=" px-[60px] mt-[320px] xl:mx-[240px]">
+    <section className=" px-[60px] xl:mx-[240px]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-[35px]">
         <div className="flex flex-col gap-[35px]">
-          <div className="h-[633px] relative">
+          <div className="h-[633px] relative ">
             <img src={discount_img_1} alt="Discount 1" className="h-full w-full object-contain" />
             <div className='w-[483px] h-[225px] rounded-[5px] px-[110px] py-[36px]
              bg-white  absolute bottom-0 left-0 -translate-x-[80px]
