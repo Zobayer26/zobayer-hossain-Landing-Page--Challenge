@@ -31,12 +31,13 @@ const App = () => {
 
   return (
     <div className="">
-      <Header size={addToCart.length} setAddToCart={setAddToCart} />
+      <Header size={addToCart.length} 
+      addToCart={addToCart} />
       <Banner />
       <BuyEasyStep />
       <DiscountProducts />
       <About />
-      <Products handleCart={handleCart}/>
+      <Products handleCart={handleCart} />
       <Footer />
     </div>
   )

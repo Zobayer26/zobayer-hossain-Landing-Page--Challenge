@@ -3,8 +3,9 @@ import { FaUser } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import { useState } from 'react';
 import Cart from './Cart';
+import PropTypes from 'prop-types';
 
-const Header = ({size}) => {
+const Header = ({ size, addToCart }) => {
 
   const [isOpen, setIsOpen] = useState(false)
   return (
@@ -24,7 +25,7 @@ const Header = ({size}) => {
         </ul>
       </div>
       <div className='flex items-center gap-[20px]'>
-        <Cart size={size} />
+        <Cart size={size} addToCart={addToCart} />
         < FaUser />
         <div onClick={() => setIsOpen(!isOpen)}
           className='md:hidden ml-[10px]'>
@@ -66,3 +67,8 @@ const Header = ({size}) => {
 }
 
 export default Header
+
+Header.propTypes = {
+  size: PropTypes.any,
+  addToCart: PropTypes.any
+};
