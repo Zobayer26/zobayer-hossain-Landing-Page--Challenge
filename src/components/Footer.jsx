@@ -4,13 +4,13 @@ import { FaLinkedinIn, FaInstagramSquare, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="mt-[205px] pl-[244px] pr-[239px] ">
-            <div className="flex justify-between">
-                <div>
+        <footer className="mt-[205px] pl-[60px] xl:pl-[244px] xl:pr-[239px]">
+            <div className="flex flex-wrap justify-between">
+                <div className='w-1/2 lg:w-[349px] '>
                     <div className='w-[149px] mb-[32px]'>
                         <img src={footer_logo} alt='Footer_logo' className='w-full object-contain' />
                     </div>
-                    <div className='w-[349px] mb-[27px]'>
+                    <div className=' w-[200px] xl:w-[349px] mb-[27px]'>
                         <p className=' text-[#383838] font-[400] text-[16px] leading-[26px]'>
                             Latin literature from 45 BC, making it over
                             2000 years old. Richard McClintock, a Latin
@@ -35,7 +35,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='w-1/2 lg:w-[210px]'>
                     <h3 className=' text-[20px] leading-[30px] font-[700]
                     mb-[32px] text-[#383838]'>Support</h3>
 
@@ -50,7 +50,7 @@ const Footer = () => {
                         ))}
                     </ul>
                 </div>
-                <div>
+                <div className='w-1/2 lg:w-[210px]'>
                     <h3 className=' text-[20px] leading-[30px] font-[700]
                 mb-[32px] text-[#383838]'>Quick Links</h3>
                     <ul className='flex flex-col gap-[10px]'>
@@ -64,7 +64,7 @@ const Footer = () => {
                         ))}
                     </ul>
                 </div>
-                <div>
+                <div className='w-1/2 lg:w-[210px]'>
                     <h3 className=' text-[20px] leading-[30px] font-[700]
                     mb-[32px] text-[#383838]'>Communnity</h3>
                     <ul className='flex flex-col gap-[10px]'>
@@ -79,9 +79,17 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div>
-                <div></div>
-                <div></div>
+            <div className='flex flex-col-reverse md:flex-row 
+            md:gap-[40px]
+            xl:justify-between items-center  mt-[39px]
+            py-[31px] text-[16px] leading-[26px] font-[400]
+             text-[#545454]'>
+                <p>Copyright © 2023 All rights reserved by Eyeglass
+                </p>
+                <div className=' flex items-center gap-[30px]'>
+                    <p>Policy Policy</p>
+                    <p>Terms of service</p>
+                </div>
             </div>
 
         </footer>
